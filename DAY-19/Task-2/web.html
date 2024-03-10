@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        nav{
+            border:2px solid rgb(220, 217, 217);
+            width: 1520px;
+            height: 80px;
+            background-color: rgb(112, 117, 206);
+            position: fixed;
+            flex-direction: column;
+            margin: -10px;
+            align-items: stretch;
+
+        
+           
+        }
+        h2{
+           display: flex;
+            color:red ;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          
+          }
+        #menu{
+            width: 30px;
+            height: 2px;
+            background-color: black;
+            margin: 12px 0;
+            margin-top: -22px;
+            margin-left: 30px;
+           
+            
+         }
+        
+       #mail{
+       display: flex;
+       flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: -35px;
+      margin-left: 1400px;
+      color: darkblue;
+       }
+       
+       #t1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        margin-left: -1000px;
+        }
+       #t2{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-left: -1000px;
+        margin-top: -8px;
+       }
+       #t3{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        margin-top: -120px;
+        margin-left: -350px;
+         }
+       #t4{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-top: -8px;
+        margin-left: -330px;
+        }
+       #t5{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        margin-left: 270px;
+        margin-top: -140px;
+        }
+       #t6{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-left: 300px;
+       
+       }
+       #t7{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        margin-top: -100px;
+        margin-left: 980px;
+        margin-top: -140px;
+       
+       }
+       #t8{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-left: 960px;
+        margin-top: -2px;
+       
+       }
+       #bpic{
+            display: flex;
+            justify-content: space-evenly;
+            width:1300px;
+            margin-left: 100px;
+
+       }
+     #pics{
+            display: flex;
+            justify-content:space-around;
+          
+            width:1300px;
+            margin-left: 113px;
+           
+            
+        }
+     #text{
+        display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     #text1{
+        display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+     #tb1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        margin-left: -1000px;
+        }
+        #tb2{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-left: -1000px;
+        margin-top: -8px;
+       }
+       #tb3{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        margin-top: -90px;
+        margin-left: -350px;
+         }
+       #tb4{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-top: -8px;
+        margin-left: -330px;
+        }
+       #tb5{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        margin-left: 320px;
+        margin-top: -115px;
+        }
+       #tb6{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-left: 320px;
+        margin-top: -15px;
+       
+       }
+       #tb7{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        margin-top: -110px;
+        margin-left: 830px;
+        
+       
+       }
+       #tb8{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-left: 960px;
+        margin-top: -2px;
+       
+       }
+       #num{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+       }
+       
+       #n1{
+        padding: 5px 10px;
+        font-size: 15px;
+        
+       }
+       #n1:hover{
+        color: white;
+        background-color: black;
+        
+        justify-content: center;
+       }
+       #n2{
+        padding: 8px 16px;
+        font-size: 15px;
+        background-color: black;
+        color: white;
+       }
+       #n2:hover{
+        color: white;
+        background-color: grey;
+        color: white;
+       
+       }
+       #n3{
+        padding: 8px 16px;
+        font-size: 15px;
+       }
+       #n3:hover{
+        color: white;
+        background-color: black;
+        
+       }
+       #n4{
+        padding: 8px 16px;
+        font-size: 15px;
+       }
+       #n4:hover{
+        color: white;
+        background-color: black;
+       
+       }
+       #n5{
+        padding: 8px 16px;
+        font-size: 15px;
+       }
+       #n5:hover{
+        color: white;
+        background-color:black;
+       
+       }
+       #n6{
+       padding: 5px 10px;
+        font-size: 15px;
+        line-height: 1.5;
+       }
+       #n6:hover{
+        color: white;
+        background-color: black;
+       
+       }
+       #l1{
+        font-size: 25px;
+        text-align: center;
+       }
+     #img{
+        display: flex;
+        flex-direction: row;
+        margin-left: 350px;
+        align-items: center;
+     }
+     #e1{
+        font-size: larger;
+       text-align: center;
+     }
+     #e2{
+        text-align: center;
+     }
+     #e3{
+        margin-left: 300px;
+     }
+     
+     #fot{
+        display: flex;
+        flex-direction: row;
+       margin-left: 250px;
+       
+     }
+     #f1{
+        margin-top: -50px;
+        margin-left: 50px;
+        font-size: 20px;
+     }
+     #f2{
+        margin-left: -80px;
+     }
+     #f3{
+        margin-left: 100px ;
+        margin-top: -55px;
+        font-size: 20px;
+     }
+     #f4{
+        margin-left: -130px;
+     }
+     #f5{
+        margin-left: -55px;
+        margin-top: -52px;
+        font-size: 20px;
+     }
+     #f6{
+        margin-top: 100px;
+        margin-left: -203px;
+     }
+     #f7{
+        margin-left: -125px;
+        margin-top: -49px;
+        font-size: 20px;
+     }
+     #f8{
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: -228px;
+     }
+    #ls1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+    #d1{
+        margin-left: 45px;
+        border: 2px solid black;
+        padding: 5px;
+       background-color: black;
+        color: white;
+        }
+    #d2{
+        margin-left: 10px;
+        border: 2px solid black;
+        padding: 5px;
+        background-color: black;
+        color: white;
+    }
+    #d3{
+        margin-left: 10px;
+        border: 2px solid black;
+        padding: 5px;
+       background-color: black;
+        color: white;
+    }
+    #d4{
+        margin-left: 10px;
+        border: 2px solid black;
+        padding: 5px;
+        background-color: black;
+        color: white;
+    }
+    #d5{
+        margin-left: 10px;
+        border: 2px solid black;
+        padding: 5px;
+        background-color: black;
+        color: white;
+    }
+    #d6{
+        margin-left: 10px;
+        border: 2px solid black;
+        padding: 5px;
+        background-color: black;
+        color: white;
+    }
+    #r1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 100px;
+      }
+   
+    #d7{
+        
+        border: 2px solid black;
+        padding: 5px;
+       background-color: black;
+        color: white;
+        margin-left: -10px;
+        }
+    
+        #d8{
+        
+        border: 2px solid black;
+        padding: 5px;
+       background-color: black;
+        color: white;
+        margin-left: 10px;
+        }
+    
+        #d9{
+        
+        border: 2px solid black;
+        padding: 5px;
+       background-color: black;
+        color: white;
+        margin-left: 10px;
+        }
+    
+        #d10{
+        
+        border: 2px solid black;
+        padding: 5px;
+       background-color: black;
+        color: white;
+        margin-left: 10px;
+        }
+    
+        #d11{
+        
+        border: 2px solid black;
+        padding: 5px;
+       background-color: black;
+        color: white;
+        margin-left: 10px;
+        }
+    
+        #d12{
+        
+        border: 2px solid black;
+        padding: 5px;
+       background-color: black;
+        color: white;
+        margin-left: 10px;
+        }
+    
+        #d13{
+        
+        border: 2px solid black;
+        padding: 5px;
+       background-color: black;
+        color: white;
+        margin-left: 90px;
+        display: inline-block;
+        
+        }
+        :root{
+            background-color: bisque;
+            color: rgba(165, 13, 13, 0.728);
+        }
+    
+   
+    </style>
+</head>
+<body>
+    <div id="main">
+    <nav>
+        <div><h2>MY FOOD</h2></div>
+            <h3 id="mail">MAIL</h3>
+            <div id="menu"></div>
+            <div id="menu"></div>
+            <div id="menu"></div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="pics">
+    <img id="p1" src="https://www.w3schools.com/w3images/sandwich.jpg" width="280px" height="400px">
+    <img id="p2" src="https://www.w3schools.com/w3images/steak.jpg" width="280px" height="400px">
+    <img id="p3" src="https://www.w3schools.com/w3images/cherries.jpg" width="280px" height="400px">
+    <img id="p4" src="https://www.w3schools.com/w3images/wine.jpg" width="280px" height="400px">
+    </div >
+    <div id="text">
+    <p id="t1">The Perfect Sandwich, A<br> Real NYC Classic</p>
+    <p id="t2">Just some random text, lorem ipsum text<br> praesent tincidunt ipsum lipsum</p>
+    <p id="t3">Let Me Tell You About<br> This Steak</p>
+    <p id="t4">Once again, some random text to lorem<br> lorem lorem lorem ipsum text praesent<br> tincidunt ipsum lipsum</p>
+    <p id="t5">Cherries, interrupted</p>
+    <p id="t6">Lorem ipsum text praesent tincidunt<br> ipsum lipsum.<br>What else?</p>
+    <p id="t7">Once Again, Robust Wine<br> and Vegetable Pasta</p>
+    <p id="t8">Lorem ipsum text praesent tincidunt<br> ipsum lipsum.</p>
+    </div>
+        <br>
+        <br>
+        <br>
+    <div id="bpic">
+    <img id="b1" src="https://www.w3schools.com/w3images/popsicle.jpg" width="280px" height="400px">
+    <img id="b2" src="https://www.w3schools.com/w3images/salmon.jpg" width="280px" height="400px">
+    <img id="b3" src="https://www.w3schools.com/w3images/sandwich.jpg" width="280px" height="400px">
+    <img id="b4" src="https://www.w3schools.com/w3images/croissant.jpg" width="280px" height="400px">
+    </div>
+    <div id="text1">
+        <p id="tb1">All I Need Is a Popsicle</p>
+        <p id="tb2">Lorem ipsum text praesent tincidunt<br> ipsum lipsum.</p>
+        <p id="tb3">Salmon For Your Skin</p>
+        <p id="tb4">Once again, some random text to lorem<br> lorem lorem lorem ipsum text praesent<br>  tincidunt ipsum lipsum.</p>
+        <p id="tb5">The Perfect Sandwich, A<br> Real Classic</p>
+        <p id="tb6">Just some random text, lorem ipsum text<br> praesent tincidunt ipsum lipsum.</p>
+        <p id="tb7">Le French</p>
+        <p id="tb8">Lorem lorem lorem lorem ipsum text<br> praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <br>
+    <br>
+<div id="num">
+    <p id="n1"><<</p><br><br>
+    <p id="n2">1</p><br><br>
+    <p id="n3">2</p><br><br>
+    <p id="n4">3</p><br><br>
+    <p id="n5">4</p><br><br>
+    <p id="n5">>></p><br><br>
+</div>  
+<br>
+<br>
+<hr>
+<br>
+<br>
+<p id="l1">About Me, The Food Man</p>
+<img id="img" src="https://www.w3schools.com/w3images/chef.jpg" width="800px" height="533">
+<br>
+<br>
+<p id="e1">I am Who I Am!</p>
+<p id="e2">With Passion For Real, Good Food</p>
+<p id="e3">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world <br>with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus <br>ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<div id="fot">
+<p id="f1">FOOTER</p>
+<p id="f2">Praesent tincidunt sed tellus<br> ut rutrum. Sed vitae justo<br> condimentum, porta lectus vitae,<br> ultricies congue gravida diam<br>non fringilla.<br><br>Powered by w3.css</p>
+<p id="f3">BLOG POSTS</p>
+<div id="h1">
+<img id="f4" src="https://www.w3schools.com/w3images/workshop.jpg" width="50px" height="50px">
+<p id="f5">Lorem<br>
+    Sed mattis nunc</p>
+</div>
+
+<div id="h2">
+<img id="f6" src="https://www.w3schools.com/w3images/gondol.jpg" width="50px" height="50px">
+<p id="f7">Ipsum<br>
+    Praes tinci sed</p>
+<p id="f8">POPULAR TAGS</p>
+<div id="ls1">
+<p id="d1">Travel</p>
+<p id="d2">New York</p>
+<p id="d3">Dinner</p>
+<p id="d4">Salmon</p>
+<p id="d5">France</p>
+<p id="d6">Drinks</p>
+</div>
+<div id="r1">
+    <p id="d7">Ideas</p>
+    <p id="d8">Flavors</p>
+    <p id="d9">Cuisine</p>
+    <p id="d10">Chicken</p>
+    <p id="d11">Dressing</p>
+    <p id="d12">Fried</p>
+    <p id="d12">Fish</p>
+    </div>
+
+  <p id="d13">Duck</p>
+
+</div>
+</div>
+</div>
+</body>
+</html>

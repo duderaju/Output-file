@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #a1{
+        display:inline-block;
+        position: relative;
+        animation-name: raining;
+        animation-duration: 3s;
+        animation-delay: 2.5s;
+        color: chartreuse;
+        animation-fill-mode: forwards;
+       }
+       #a2{
+        display: inline-block;
+        position: relative;
+        animation-name: raining2;
+        animation-duration: 3s;
+        animation-delay: 3s;
+        color: brown;
+        animation-fill-mode: forwards;
+       }
+       #a3{
+        display: inline-block;
+        position: relative;
+        animation-name: raining3;
+        animation-delay: 3.5s;
+        animation-duration: 3s; 
+        color: aqua;
+        animation-fill-mode: forwards;
+       }
+       #a4{
+        display: inline-block;
+        position: relative;
+        animation-name: raining4;
+        animation-delay: 4s;
+        animation-duration: 3s;  
+        color: blueviolet;
+        animation-fill-mode: forwards;
+       }
+       #a5{
+        display: inline-block;
+        position: relative;
+        animation-name: raining5;
+        animation-delay: 4.5s;
+        animation-duration: 3s;  
+        color: rgb(210, 189, 31);
+        animation-fill-mode: forwards;
+       }
+
+@keyframes raining {
+    0%{
+        top: 0px;;
+    }
+    100%{
+        top: 500px;;
+    }
+    
+}
+@keyframes raining2 {
+    0%,100%{
+        transform:translateY(0px);
+    }
+    100%{
+        transform:translateY(500px);
+    }
+}
+@keyframes raining3 {
+    0%,100%{
+        transform:translateY(0px);
+    }
+    100%{
+        transform:translateY(500px);
+    }
+}
+@keyframes raining4 {
+    0%,100%{
+        transform:translateY(0px);
+    }
+    100%{
+        transform:translateY(500px);
+    }
+}
+@keyframes raining5 {
+     0%,100%{
+        transform:translateY(0px);
+    }
+    100%{
+        transform:translateY(500px);
+    }
+}
+
+.main{
+    background-color: black;
+    font-size: 100px;
+}
+body{
+    background-color: black;
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+    
+        <div class="main">
+        <div id="a1">D</div>
+        <div id="a2">I</div>
+        <div id="a3">V</div>
+        <div id="a4">Y</div>
+        <div id="a5">A</div>
+
+        </div>
+    
+
+</body>
+</html>

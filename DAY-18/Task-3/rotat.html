@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    img{
+        margin-left:px;
+        position: relative;
+        margin-left: 610px;
+        top: 50px;
+       }
+
+    #a2{
+        margin-left:548px;
+        margin-top: 50px;
+        background-color: bisque;
+        
+    }
+    #a2:hover{
+background-color: gold;
+    }
+    #a2:hover ~ img{
+        transform: rotate(120deg);
+        transition-duration: 2s;
+       
+    }
+    #a3{
+        margin-left:10px;
+        margin-top: 50px;
+        background-color: rgb(105, 210, 146);
+    }
+    #a3:hover{
+background-color: rgb(189, 122, 21);
+    }
+    #a3:hover ~img{
+        transform: rotate(240deg);
+        transition-duration: 2s;
+    }
+    #a4{
+        margin-left:780px;
+        top: -48px;
+        position: relative;
+        background-color: rgb(210, 106, 174);
+    }
+    #a4:hover{
+background-color: orangered;
+    }
+    #a4:hover + img{
+        transform: rotate(360deg);
+        transition-duration: 2s;
+    }
+
+    nav{
+        border: 2px solid rgb(126, 105, 211);
+        padding: 30px;
+        background-color:rgb(144, 91, 194) ;
+        text-align: center;
+        color: rgb(210, 21, 43);
+    }
+    
+  
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h3>IMAGE ROTATION</h3>
+    </nav>
+    <button id="a2"><p>Rotate 120deg</p></button>
+    <button id="a3"><p>Rotate 240deg</p></button>
+    <button id="a4"><p>Rotate 360deg</p></button>
+
+    
+        <img src="https://media.istockphoto.com/id/171450320/photo/isolated-shot-of-2-oclock-clock-face-on-white-background.jpg?s=612x612&w=0&k=20&c=rCqr-IFDMzntr1f-tDtBGLunohNm4MJbpu79Re5QFaE="   width="200px" height="200px">
+         
+    
+
+
+    
+</body>
+</html>
